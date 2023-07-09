@@ -1,0 +1,93 @@
+/* Style04.css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --text-color: #D45113;
+    --main-color: #813405;
+    --bg-color: #EFCB68;
+    
+    --big-font: 4.5rem;
+    --h4-font: 1.6rem;
+    --p-font: 1,1rem;
+}
+body{
+    color: var(--text-color);
+    background-color: #c3baba;
+	background-size: cover;
+	background-size: cover;
+}
+h1{
+	text-align: left;
+	color: #813405;
+	font-size:30px;
+	font-family:'Inter', sans-serif;
+}
+
+p{
+	font-size: 23px;
+	color: #813405;
+	font-family: 'Inter', sans-serif;
+	text-align: left;
+}
+.contact-left{
+    flex-basis: 35%;
+    margin-right: 5rem;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #813405;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+    color: #fd6506;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+    color: #813405;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #fd6506;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #fd6506;
+}
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 65%;
+    border: 0;
+    outline: none;
+    background: #D5E2BC;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}

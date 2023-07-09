@@ -1,0 +1,15 @@
+const sr = ScrollReveal ({
+    distance: '35px',
+    duration: 2400,
+    reset: true
+});
+
+sr.reveal('.logo',{delay:210, origin: 'left'});
+sr.reveal('.navlist',{delay:310, origin: 'top'});
+sr.reveal('.logotop-btnn',{delay:410, origin: 'right'});
+sr.reveal('.top-btnn',{delay:510, origin: 'right'});
+
+sr.reveal('.main-content h4',{delay:610, origin: 'top'});
+sr.reveal('.main-content h1',{delay:710, origin: 'right'});
+sr.reveal('.main-content p',{delay:810, origin: 'left'});
+sr.reveal('.social',{delay:910, origin: 'right'});

@@ -1,0 +1,62 @@
+/* Style03.css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --text-color: #D45113;
+    --main-color: #813405;
+    --bg-color: #EFCB68;
+    
+    --big-font: 4.5rem;
+    --h4-font: 1.6rem;
+    --p-font: 1,1rem;
+}
+body{
+    color: var(--text-color);
+    background-color: #c3baba;
+    height:100vh;
+	width:100;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	color: #813405;
+	font-size:30px;
+	font-family:'Inter', sans-serif;
+}
+
+h2{
+	font-size: 23px;
+	color:#fd6506;
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
